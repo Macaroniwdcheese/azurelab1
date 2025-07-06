@@ -84,8 +84,8 @@ az network nsg rule create --resource-group MyResourceGroup104 --nsg-name MyNSG 
 ![Screenshot from 2025-07-06 12-16-54](https://github.com/user-attachments/assets/a820a15c-e50f-417a-b5e6-46d2844ff240)
 
 
-
 Step 8: associate NSG with NIC
+
 Bash command:
 az network nic update --resource-group MyResourceGroup104 --name MyLinuxVMVMNic --network-security-group MyNSG
 
@@ -96,11 +96,13 @@ az vm open-port --port 22 --resource-group MyResourceGroup104 --name MyLinuxVM
 
 Step 10: 
 
+Bash Command: 
 Connect to the VM with SSH protocol:
 
 ssh azureuser@4.210.155.248
 ![Screenshot from 2025-07-06 12-25-49](https://github.com/user-attachments/assets/e8d5cf25-fc9e-4c3c-8349-ebde05702348)
 
 Im in!!!
+
 ![Screenshot from 2025-07-06 12-26-35](https://github.com/user-attachments/assets/5fba24bb-2407-49f2-b62f-5fdc080d7e2c)
 
