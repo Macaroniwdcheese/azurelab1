@@ -32,7 +32,7 @@ To Resolve i had to change my command to:
 
 Bash Command: az network public-ip create --name MyPublicIp --resource-group MyresourceGroup104 --sku Standard --allocation-method Static 
 
-![Screenshot from 2025-07-06 11-33-38](https://github.com/user-attachments/assets/c84b0101-4255-4cd7-9dbb-7b503b94c70c)
+![Screenshot from 2025-07-06 13-02-09](https://github.com/user-attachments/assets/79125ca2-976e-4a1a-84c0-b25eedbc1e9e)
 
 
 Step4: Create Network Interface (NIC)
