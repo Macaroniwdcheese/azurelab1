@@ -94,3 +94,8 @@ Im in!!!
 
 ![Screenshot from 2025-07-06 12-26-35](https://github.com/user-attachments/assets/5fba24bb-2407-49f2-b62f-5fdc080d7e2c)
 
+
+
+Delete al recources:
+![Screenshot from 2025-07-06 13-11-40](https://github.com/user-attachments/assets/7ba37989-32a8-4026-a38b-bce5b20bfbe4)
+
