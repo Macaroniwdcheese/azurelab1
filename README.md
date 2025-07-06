@@ -71,16 +71,36 @@ Now i have a Running LinuxVm:
 Step6: Create a Networksecurity group (NSG)
 az network nsg create --resource-group MyResourceGroup104 --name MyNSG
 
+
+![Screenshot from 2025-07-06 12-16-43](https://github.com/user-attachments/assets/53137968-7cd3-4ef5-bc24-b5039e649924)
+
+
 Step7: Create a NSG rule to Open Port 22  
 (I dont use a Windows VM + port3389 RDP is not secure)
 
 Bash Command:
 az network nsg rule create --resource-group MyResourceGroup104 --nsg-name MyNSG --name AllowSSH --protocol tcp --direction inbound --priority 100 --source-address-prefixes '*' --source-port-ranges '*' --destination-port-ranges 22 --access allow
 
+![Screenshot from 2025-07-06 12-16-54](https://github.com/user-attachments/assets/a820a15c-e50f-417a-b5e6-46d2844ff240)
+
+
+
 Step 8: associate NSG with NIC
 Bash command:
 az network nic update --resource-group MyResourceGroup104 --name MyLinuxVMVMNic --network-security-group MyNSG
 
-Step9: Open Port 22 
+Step 9: Open Port 22 
 
 az vm open-port --port 22 --resource-group MyResourceGroup104 --name MyLinuxVM
+![Screenshot from 2025-07-06 12-23-17](https://github.com/user-attachments/assets/839f53cd-35dd-407e-9833-049ec0bfa211)
+
+Step 10: 
+
+Connect to the VM with SSH protocol:
+
+ssh azureuser@4.210.155.248
+![Screenshot from 2025-07-06 12-25-49](https://github.com/user-attachments/assets/e8d5cf25-fc9e-4c3c-8349-ebde05702348)
+
+Im in!!!
+![Screenshot from 2025-07-06 12-26-35](https://github.com/user-attachments/assets/5fba24bb-2407-49f2-b62f-5fdc080d7e2c)
+
