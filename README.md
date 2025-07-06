@@ -4,11 +4,12 @@ Create and Configure Azure Virtual Machines using Azure CLI
 Step1: Create Resource Group
 
 Bash Command: az group create --name MyResourceGroup104 --location westeurope
+![Screenshot from 2025-07-06 12-43-48](https://github.com/user-attachments/assets/85d343f0-0f64-4433-84a5-90059b9414f3)
 
-![Screenshot from 2025-07-06 10-55-52](https://github.com/user-attachments/assets/2f1efc1a-c463-4896-a30a-87b71809eef8)
+![Screenshot from 2025-07-06 12-46-36](https://github.com/user-attachments/assets/af8ee937-1b61-484b-a373-2e444678a04a)
 
 Checked the resource group in the portal is has been made:
-![Screenshot from 2025-07-06 11-01-41](https://github.com/user-attachments/assets/b29f1657-ebbf-4630-8223-755ca415282b)
+
 
 A resourcegroup is required to group your resources.
 
