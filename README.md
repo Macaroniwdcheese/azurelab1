@@ -8,7 +8,7 @@ Bash Command: az group create --name MyResourceGroup104 --location westeurope
 
 Checked the resource group in the portal is has been made:
 ![Screenshot from 2025-07-06 11-01-41](https://github.com/user-attachments/assets/b29f1657-ebbf-4630-8223-755ca415282b)
-A resourceegroup is required to group your resources.
+A resourcegroup is required to group your resources.
 
 Step2: Create  aVirtual Network (Vnet)
 Bash command:az network vnet create --name My104VNet --resource-group MyResourceGroup104 --subnet-name Mysubnet
