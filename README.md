@@ -68,6 +68,19 @@ Now i have a Running LinuxVm:
 
 ![Screenshot from 2025-07-06 11-47-57](https://github.com/user-attachments/assets/f728f228-57ad-4e67-9898-b75b7f18bb8a)
 
+Step6: Create a Networksecurity group (NSG)
+az network nsg create --resource-group MyResourceGroup104 --name MyNSG
 
-Step6: Open Port 22 for in NSG (Network Security Group) 
-(I dont use port3389 RDP is for Security Reasons)
+Step7: Create a NSG rule to Open Port 22  
+(I dont use a Windows VM + port3389 RDP is not secure)
+
+Bash Command:
+az network nsg rule create --resource-group MyResourceGroup104 --nsg-name MyNSG --name AllowSSH --protocol tcp --direction inbound --priority 100 --source-address-prefixes '*' --source-port-ranges '*' --destination-port-ranges 22 --access allow
+
+Step 8: associate NSG with NIC
+Bash command:
+az network nic update --resource-group MyResourceGroup104 --name MyLinuxVMVMNic --network-security-group MyNSG
+
+Step9: Open Port 22 
+
+az vm open-port --port 22 --resource-group MyResourceGroup104 --name MyLinuxVM
