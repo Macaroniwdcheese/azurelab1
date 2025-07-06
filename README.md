@@ -17,7 +17,7 @@ Step2: Create  aVirtual Network (Vnet)
 
 Bash command:az network vnet create --name My104VNet --resource-group MyResourceGroup104 --subnet-name Mysubnet
 
-![Screenshot from 2025-07-06 11-07-05](https://github.com/user-attachments/assets/8cdbf434-c36d-4534-84bb-fd47dab14d93)
+![Screenshot from 2025-07-06 12-58-41](https://github.com/user-attachments/assets/9f57c996-d878-406c-85f9-30b33b2c7083)
 
 
 Step3: Create Public Ipadress
