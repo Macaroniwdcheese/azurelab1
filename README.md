@@ -52,19 +52,6 @@ running/:
 
 Now i have a Running LinuxVm:
 
-{
-  "fqdns": "",
-  "id": "/subscriptions/000dda75-5cc0-434a-89d4-70b097cbe53d/resourceGroups/MyResourceGroup104/providers/Microsoft.Compute/virtualMachines/MyLinuxVM",
-  "location": "westeurope",
-  "macAddress": "7C-ED-8D-16-0D-48",
-  "powerState": "VM running",
-  "privateIpAddress": "10.0.0.4",
-  "publicIpAddress": "4.210.155.248",
-  "resourceGroup": "MyResourceGroup104",
-  "zones": ""
-
-
-
 
 ![Screenshot from 2025-07-06 11-47-57](https://github.com/user-attachments/assets/f728f228-57ad-4e67-9898-b75b7f18bb8a)
 
