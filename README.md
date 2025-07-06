@@ -42,7 +42,7 @@ az network nic create --resource-group MyResourceGroup104 --name MyNic --vnet-na
 
 Step5: Create Virtual Machine
 
-Bash Command: az vm create   --resource-group MyResourceGroup104   --name MyLinuxVM   --nics MyNIC   --image UbuntuLTS   --admin-username azureuser   --admin-password 123456
+Bash Command: az vm create   --resource-group MyResourceGroup104   --name MyLinuxVM   --nics MyNIC   --image UbuntuLTS   --admin-username azureuser   --admin-password #givenpassword
 
 I received a few errors when i was buildng my LinuxVM, i had an invalid VM image and the Password lenght of My Vm was not compliant.
 
