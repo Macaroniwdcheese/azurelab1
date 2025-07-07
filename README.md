@@ -1,5 +1,5 @@
 # azurelab1
-Create and Configure Azure Virtual Machines using Azure CLI
+# Create and Configure Azure Virtual Machines using Azure CLI
 
 Step1: Create Resource Group
 
